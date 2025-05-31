@@ -1,0 +1,14 @@
+{
+  "name": "manager",
+  "version": "1.0.0",
+  "description": "Gestionnaire d'entreprise sans gestion de bons de commande",
+  "main": "index.js",
+  "dependencies": {
+    "jspdf": "^2.5.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Fatima Zahra",
+  "license": "ISC"
+}

@@ -1,0 +1,122 @@
+/* Dashboard styles */
+.container {
+    margin-top: 1.5rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #8b5cf6;
+    text-shadow: 0 2px 12px rgba(217, 70, 144, 0.65);
+    letter-spacing: 2px;
+    font-family: 'Playfair Display', serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Cards */
+.card {
+    border: none;
+    box-shadow: 0 4px 24px rgba(217, 70, 144, 0.2);
+}
+
+.card-title {
+    color: #fff;
+}
+
+/* Gradient backgrounds */
+.card:nth-child(1) {
+    background: linear-gradient(135deg, #d94690 60%, #8b5cf6 100%);
+}
+
+.card:nth-child(2) {
+    background: linear-gradient(135deg, #8b5cf6 60%, #7c3aed 100%);
+}
+
+.card:nth-child(3) {
+    background: linear-gradient(135deg, #7c3aed 60%, #a78bfa 100%);
+}
+
+.card:nth-child(4) {
+    background: linear-gradient(135deg, #a78bfa 60%, #d94690 100%);
+}
+
+/* Quick actions card */
+.quick-actions-card {
+    background: rgba(139, 92, 246, 0.1);
+    border-radius: 18px;
+    box-shadow: 0 2px 12px rgba(124, 58, 237, 0.133);
+}
+
+.quick-actions-card .card-header {
+    background: linear-gradient(90deg, #8b5cf6 60%, #d94690 100%);
+    color: #fff;
+    border-radius: 18px 18px 0 0;
+}
+
+/* Buttons */
+.btn-lg {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 2px 8px rgba(217, 70, 144, 0.2);
+}
+
+.btn-lg:nth-child(1) {
+    background: linear-gradient(90deg, #d94690 60%, #8b5cf6 100%);
+}
+
+.btn-lg:nth-child(2) {
+    background: linear-gradient(90deg, #8b5cf6 60%, #7c3aed 100%);
+}
+
+.btn-lg:nth-child(3) {
+    background: linear-gradient(90deg, #7c3aed 60%, #a78bfa 100%);
+}
+
+.btn-lg:nth-child(4) {
+    background: linear-gradient(90deg, #a78bfa 60%, #d94690 100%);
+}
+
+/* Icons */
+.fas {
+    margin-right: 0.5rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .btn-lg {
+        padding: 0.5rem 1rem;
+    }
+}
+
+/* Cross-browser compatibility */
+* {
+    -webkit-filter: none !important;
+    filter: none !important;
+    -webkit-user-select: none !important;
+    user-select: none !important;
+    -webkit-text-size-adjust: 100% !important;
+    text-size-adjust: 100% !important;
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
+/* Viewport meta tag for mobile devices */
+@media screen and (max-width: 768px) {
+    html {
+        -webkit-text-size-adjust: 100% !important;
+        text-size-adjust: 100% !important;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
+/* Mobile browser optimizations */
+@media screen and (max-width: 768px) {
+    * {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+}
